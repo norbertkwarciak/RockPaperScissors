@@ -4,9 +4,28 @@
 
 body {
     margin: 0;
-    padding: 0; 
+    padding: 0;  
+    background: #e0eafc;
+    background: -webkit-linear-gradient(top,#e0eafc,#bad1fc);
+    background: -moz-linear-gradient(top,#e0eafc,#bad1fc);
+    background: linear-gradient(top,#e0eafc,#bad1fc); 
+    font-family: 'Nunito', sans-serif;    
 }
 
 .container {
     padding: 20px 0;
+}
+
+.btn {
+    margin: 0 1em;
+    background-color: white;
+
+    &:hover {
+        background-color: inherit;
+        border: 1px solid black;
+    }
+}
+
+#js-playerPickElement .row, #js-resultsTableElement .row {
+    padding: 5px 0;
 }
